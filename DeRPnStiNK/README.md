@@ -59,5 +59,6 @@ Desktop目录下获得flag3:```flag3(07f62b021771d3cf67e2e1faf18769cc5e5c119ad7d
 利用这个密码su切换用户mrderp，在Desktop目录下拿到一个邮件来往记录，记录中提到sudo配置文件```sudoers``` ,执行sudo    
 ![image](https://raw.githubusercontent.com/trialv/vulnhub_test/master/DeRPnStiNK/png_12.png)    
 ```(ALL) /home/mrderp/binaries/derpy*``` 即mrderp用户只能在binaries目录下执行derpy*文件时使用sudo，创建binaries目录，在derpy.sh中写入```/bin/bash```,sudo执行。    
-![image](https://raw.githubusercontent.com/trialv/vulnhub_test/master/DeRPnStiNK/png_13.png)    
-在```/root/Desktop/``` 下拿到flag4:```flag4(49dca65f362fee401292ed7ada96f96295eab1e589c52e4e66bf4aedda715fdd)```
+![image](https://raw.githubusercontent.com/trialv/vulnhub_test/master/DeRPnStiNK/png_13.png)      
+在```/root/Desktop/``` 下拿到flag4:```flag4(49dca65f362fee401292ed7ada96f96295eab1e589c52e4e66bf4aedda715fdd)```    
+![image](https://raw.githubusercontent.com/trialv/vulnhub_test/master/DeRPnStiNK/png_14.png)   
