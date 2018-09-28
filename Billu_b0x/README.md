@@ -12,7 +12,7 @@ hash:ebcb435522917a67b54274900b37c6af
 查看HTML源码并没什么*用，SQLmap无果后遍历目录       
 ![image](https://raw.githubusercontent.com/trialv/vulnhub_test/master/Billu_b0x/png_3.png)    
 访问```http://192.168.14.149/test.php``` 报错缺少参数```file```    
-![image](https://raw.githubusercontent.com/trialv/vulnhub_test/master/Billu_b0x/png_4.png)
+![image](https://raw.githubusercontent.com/trialv/vulnhub_test/master/Billu_b0x/png_4.png)    
 尝试POST提交```file=test.php```此处为任意文件下载，将目录遍历出的文件全部下载开始代码审计。     
 ![image](https://raw.githubusercontent.com/trialv/vulnhub_test/master/Billu_b0x/png_5.png)    
 
@@ -56,7 +56,7 @@ $image=array('jpeg','jpg','gif','png');
 ```
 #### 利用
 ```c.php```中找到数据库账号密码```billu/b0x_billu```,登录phpmyadmin找到用户名口令    
-![image](https://raw.githubusercontent.com/trialv/vulnhub_test/master/Billu_b0x/png_6.png)   
+![image](https://raw.githubusercontent.com/trialv/vulnhub_test/master/Billu_b0x/png_6.png)    
 登录成功后上传图片马到```uploaded_images/```目录下构造payload如下
 ```
 POST /panel.php
