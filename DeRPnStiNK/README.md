@@ -1,6 +1,7 @@
 ### 环境搭建
 下载虚拟机包文件VMware或VirtualBox打开，配置网络模式为NAT模式。  
 >下载链接:[https://download.vulnhub.com/derpnstink/VulnHub2018_DeRPnStiNK.ova ](https://download.vulnhub.com/derpnstink/VulnHub2018_DeRPnStiNK.ova)
+
 hash:949e2f8a7d63fabdc55c675c95efe022    
 ### 开搞
 #### flag1
