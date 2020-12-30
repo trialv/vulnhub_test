@@ -9,6 +9,7 @@ hash:949e2f8a7d63fabdc55c675c95efe022
 
 ![nmap -sP 192.168.14.1/24](https://raw.githubusercontent.com/trialv/vulnhub_test/master/DeRPnStiNK/png_1.png)    
 访问```http://192.168.14.148```查看源码
+
 ![image](https://raw.githubusercontent.com/trialv/vulnhub_test/master/DeRPnStiNK/png_2.png)    
 112行处找到flag1:```flag1(52E37291AEDF6A46D7D0BB8A6312F4F9F1AA4975C248C3F0E008CBA09D6E9166)```
 #### flag2
