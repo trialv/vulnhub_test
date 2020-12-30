@@ -6,6 +6,7 @@ hash:949e2f8a7d63fabdc55c675c95efe022
 ### 开搞
 #### flag1
 首先```nmap -sP 192.168.14.1/24```一波找一下靶机地址
+
 ![nmap -sP 192.168.14.1/24](https://raw.githubusercontent.com/trialv/vulnhub_test/master/DeRPnStiNK/png_1.png)    
 访问```http://192.168.14.148```查看源码
 ![image](https://raw.githubusercontent.com/trialv/vulnhub_test/master/DeRPnStiNK/png_2.png)    
